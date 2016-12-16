@@ -11,6 +11,18 @@ Summary: Time everything in IPython
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/ipython-autotime-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/ipython-autotime-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/ipython-autotime-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/ipython-autotime-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/ipython-autotime-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/ipython-autotime-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ipython-autotime/badges/version.svg)](https://anaconda.org/conda-forge/ipython-autotime)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ipython-autotime/badges/downloads.svg)](https://anaconda.org/conda-forge/ipython-autotime)
+
 Installing ipython-autotime
 ===========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `ipython-autotime` available on yo
 ```
 conda search ipython-autotime --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/ipython-autotime-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/ipython-autotime-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/ipython-autotime-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/ipython-autotime-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/ipython-autotime-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/ipython-autotime-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ipython-autotime/badges/version.svg)](https://anaconda.org/conda-forge/ipython-autotime)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ipython-autotime/badges/downloads.svg)](https://anaconda.org/conda-forge/ipython-autotime)
 
 
 Updating ipython-autotime-feedstock
