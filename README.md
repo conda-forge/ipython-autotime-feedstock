@@ -14,14 +14,15 @@ Summary: Time everything in IPython
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/ipython-autotime-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/ipython-autotime-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/ipython-autotime-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/ipython-autotime-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/ipython-autotime-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/ipython-autotime-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/ipython-autotime-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/ipython-autotime-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ipython-autotime/badges/version.svg)](https://anaconda.org/conda-forge/ipython-autotime)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ipython-autotime/badges/downloads.svg)](https://anaconda.org/conda-forge/ipython-autotime)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-ipython--autotime-green.svg)](https://anaconda.org/conda-forge/ipython-autotime) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ipython-autotime.svg)](https://anaconda.org/conda-forge/ipython-autotime) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ipython-autotime.svg)](https://anaconda.org/conda-forge/ipython-autotime) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ipython-autotime.svg)](https://anaconda.org/conda-forge/ipython-autotime) |
 
 Installing ipython-autotime
 ===========================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
