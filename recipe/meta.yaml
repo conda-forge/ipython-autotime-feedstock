@@ -33,9 +33,8 @@ test:
 about:
   home: https://github.com/cpcloud/ipython-autotime
   license: MIT
-  license_file: LICENSE
   license_family: MIT
-  # license_file: LICENSE # When added to MANIFEST.in – https://github.com/cpcloud/ipython-autotime/pull/6
+  license_file: LICENSE
   summary: Time everything in IPython
   dev_url: https://github.com/cpcloud/ipython-autotime
 
