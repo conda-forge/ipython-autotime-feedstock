@@ -1,6 +1,6 @@
 {% set name = "ipython-autotime" %}
-{% set version = "0.1" %}
-{% set sha256 = "4570af779adfa2ea256dedc743e3ba2d12740c67e9b71e080283c12abc83b9c7" %}
+{% set version = "0.3.1" %}
+{% set sha256 = "d839aca97d54d5bfc0bbf9aa9dc34ded577cc3b38da5f6fd6d25a8fffe7f05d1" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -28,14 +28,15 @@ requirements:
 
 test:
   imports:
-  - autotime
+    - autotime
 
 about:
   home: https://github.com/cpcloud/ipython-autotime
   license: MIT
+  license_file: LICENSE
   license_family: MIT
   # license_file: LICENSE # When added to MANIFEST.in – https://github.com/cpcloud/ipython-autotime/pull/6
-  summary: 'Time everything in IPython'
+  summary: Time everything in IPython
   dev_url: https://github.com/cpcloud/ipython-autotime
 
 extra:
